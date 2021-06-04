@@ -6,13 +6,15 @@ public class test {
     public static void main(String[] args) {
         HeroNode_test heroNode1 = new HeroNode_test(0, "adadasd", "adasdasdasd");
         HeroNode_test heroNode2 = heroNode1;
-        System.out.println(heroNode1.getName());
+ //       System.out.println(heroNode1.getName());
 //        heroNode2.setName("asdasdasdasd1232423432");
 //        heroNode2.name = "2423432322534534534";
 
-        heroNode2 = new HeroNode_test(1,"aaaaaa","aaaaaa");
-
+        HeroNode_test heroNode3 = new HeroNode_test(1, "aaaaaa", "aaaaaa");
+        heroNode2 =  heroNode3;
+        heroNode2.name = "2423432322534534534";
         System.out.println(heroNode1.getName());
+        System.out.println(heroNode3.getName());
 
     }
 }
