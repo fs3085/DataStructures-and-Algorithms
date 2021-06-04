@@ -8,7 +8,10 @@ public class test {
         HeroNode_test heroNode2 = heroNode1;
         System.out.println(heroNode1.getName());
 //        heroNode2.setName("asdasdasdasd1232423432");
-        heroNode2.name = "2423432322534534534";
+//        heroNode2.name = "2423432322534534534";
+
+        heroNode2 = new HeroNode_test(1,"aaaaaa","aaaaaa");
+
         System.out.println(heroNode1.getName());
 
     }
